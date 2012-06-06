@@ -26,10 +26,10 @@ end
 
 end
   
-  describe "About page" do
+  describe "About Us page" do
     before { visit about_path }
-  let(:heading) { 'About' }
-  let(:page_title) { 'About' }
+  let(:heading) { 'About Us' }
+  let(:page_title) { 'About Us' }
   
 
 end
@@ -39,7 +39,7 @@ end
   let(:heading) { 'Contact' }
   let(:page_title) { 'Contact' }
   
-
-
 end
+
+
 end

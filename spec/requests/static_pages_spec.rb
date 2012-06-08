@@ -21,25 +21,18 @@ end
     before { visit help_path }
   let(:heading) { 'Help' }
   let(:page_title) { 'Help' }
-  
-
-
 end
   
   describe "About Us page" do
     before { visit about_path }
   let(:heading) { 'About Us' }
   let(:page_title) { 'About Us' }
-  
-
 end
   
   describe "Contact page" do
     before { visit contact_path }
   let(:heading) { 'Contact' }
   let(:page_title) { 'Contact' }
-  
 end
-
 
 end
